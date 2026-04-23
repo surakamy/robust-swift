@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RobustKit | High-Performance Systems</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { background-color: #000; color: #fff; }
+        .glass { background: rgba(255, 255, 255, 0.03); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); }
+    </style>
+</head>
+<body class="antialiased font-sans">
+    <nav class="p-6 flex justify-between items-center max-w-6xl mx-auto">
+        <div class="font-bold text-xl tracking-tighter">ROBUST<span class="text-blue-500">KIT</span></div>
+        <div class="space-x-6 text-sm text-zinc-400">
+            <a href="privacy.html" class="hover:text-white transition">Privacy</a>
+            <a href="terms.html" class="hover:text-white transition">Terms</a>
+        </div>
+    </nav>
+
+    <main class="max-w-4xl mx-auto px-6 py-24 text-center">
+        <h1 class="text-6xl md:text-8xl font-bold tracking-tight mb-8">Deterministic. <br><span class="text-zinc-500">Scalable. Apple-grade.</span></h1>
+        <p class="text-zinc-400 text-lg mb-12 max-w-xl mx-auto">Proprietary application runtime for Swift. Built for sub-millisecond latency and high-frequency data orchestration.</p>
+        <div class="glass p-8 rounded-3xl inline-block">
+            <code class="text-blue-400">RobustRuntime.start(priority: .high)</code>
+        </div>
+    </main>
+
+    <footer class="mt-24 p-12 border-t border-zinc-900 text-center text-zinc-600 text-xs">
+        &copy; 2026 RobustKit. All rights reserved.
+    </footer>
+</body>
+</html>
